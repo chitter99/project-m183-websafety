@@ -1,0 +1,735 @@
+#header {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: whitesmoke;
+}
+
+p {
+    line-height: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#responsiveFilter {
+    visibility: hidden;
+}
+
+.description {
+    display: block;
+    margin: 0 2em 3em 0;
+    width: 100%;
+    line-height:50px;
+    text-overflow: inherit;
+}
+
+.profil_favorite {
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.profil_eigene {
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.p_favoriten {
+    text-align: center;
+    padding-top: 1.25em;
+}
+
+.p_eigeneEvents {
+    text-align: center;
+    padding-top: 1.25em;
+}
+
+.image.main {
+    display: block;
+    margin: 0 0 3em 0;
+    width: 100%;
+}
+
+#form-date-group {
+    text-align: center;
+}
+
+#anzeige {
+    background-color: whitesmoke; 
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    color: #585858;
+}
+
+.div50 {
+    width: 50%;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#filter {
+    background-color: whitesmoke; 
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#filterForm {
+    padding-bottom: 1em;
+    width: 100%;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#filterForm .form-inline {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+
+#form-veranstalter {
+    margin-left: 51px;
+}
+
+#form-benutzer {
+    margin-left: 14.5em;
+    margin-right: 2em;
+}
+
+#form-new-event {
+    margin-left: 2em;
+    float: right;
+}
+
+#filterForm .form-group {
+    color: black;
+    margin-right: 2em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+    color: black;
+    display: block;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+table tbody tr:nth-child(2n + 1) {
+    background-color: whitesmoke;
+}
+.map#content {
+    width: 100%;
+    height: 300px;
+}
+
+div#map { margin: 0 auto 0 auto; }
+
+.table table-infos{
+    border-collapse: collapse;
+    border: none !important;
+    min-width: 300px;
+}
+
+.table table-infos th,
+.table table-infos td {
+    margin: 5px 8px;
+    border: none;
+}
+
+.infos {
+    width: 50%;
+    float: left;
+    padding: 0 10px 0 20px;
+}
+
+.maps {
+    padding: 0 10px 0 20px;
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 375px){
+    .table table-infos {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1003px){
+    .maps {
+        width: 100%;
+        float: none;
+        padding-left: 20px;
+    }
+    .infos {
+        width: 100%;
+    }
+
+    .table table-infos{
+        border-collapse: collapse;
+        min-width: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .tiles {
+        padding-top: 20px;
+    }
+}
+
+#form-create-event {
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 2em 20em 2em 20em;
+    padding: 2em 10em 0.25em 10em;
+}
+
+#formCreateClass .actions {
+    text-align: center;
+}
+
+.formCreateClass .form-group-event {
+    padding-top: 1em;
+    text-align: center;
+}
+
+#formLogin {
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 2em 20em 2em 20em;
+    padding: 2em 10em 0.25em 10em;
+}
+
+#formLogin .actions {
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#formLogin .form-group-login {
+    padding-top: 1em;
+    text-align: center;
+}
+
+#menu > .close:before {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'><style>line %7B stroke-width: 8px%3B stroke: darkgoldenrod %7D</style><line x1='15' y1='15' x2='85' y2='85' /><line x1='85' y1='15' x2='15' y2='85' /></svg>");
+    opacity: 0;
+}
+
+#header nav ul li a[href="#menu"]:before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: darkgoldenrod %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
+    opacity: 0;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    color: darkgoldenrod !important;
+}
+
+.icon.style2:hover {
+    color: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+datalist:focus,
+select:focus,
+textarea:focus {
+    border-bottom-color: darkgoldenrod;
+    box-shadow: inset 0 -1px 0 0 darkgoldenrod;
+}
+
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+    border-color: darkgoldenrod;
+    box-shadow: 0 0 0 1px darkgoldenrod;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+datalist:hover,
+button:hover,
+.button:hover {
+    color: #585858!important;
+    box-shadow: inset 0 0 0 2px darkgoldenrod;
+}
+
+input[type="submit"].special:hover,
+input[type="reset"].special:hover,
+input[type="button"].special:hover,
+datalist.special:hover,
+button.special:hover,
+.button.special:hover {
+    background-color: darkgoldenrod;
+}
+
+input[type="submit"].special:active,
+input[type="reset"].special:active,
+input[type="button"].special:active,
+datalist.special:active,
+button.special:active,
+.button.special:active {
+    background-color: gold;
+}
+
+.tiles {
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .tiles {
+        margin: -1.25em 0 0 -1.25em;
+    }
+
+    .tiles article {
+        width: calc(33.33333% - 1.25em);
+        /*margin: 1.25em 0 0 1.25em;*/
+    }
+
+}
+
+@media screen and (max-width: 1003px){
+    .tiles  {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.tiles article.style1 > .image:before {
+    background-color: darkgoldenrod;
+}
+
+.tiles article {
+    width: 18em;
+    height: 14em;
+}
+
+.tiles article > .image {
+    height: 100%
+}
+
+.tiles article > .image img {
+    height: 100%
+}
+
+
+.glyphicon glyphicons-user {
+    color: black;    
+}
+
+.glyphicon glyphicon-trash {
+    
+}
+
+#footer {
+    height: 100%;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+form :last-child .margin-bottom-button {
+     margin-bottom: 20px;
+}
+
+    @media screen and (max-width: 480px) {
+        #form-group-without-left {
+            margin-left: 51px;
+            margin-right: 51px;
+        }
+    }
+
+
+    @media screen and (max-width: 990px) {
+        #form-group-without-left {
+            margin-left: 51px;
+            margin-right: 51px;
+        }
+    }
+
+    @media screen and (max-width: 3000px){
+        #footer {
+            position: fixed;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        #footer {
+            position: fixed;
+        }
+
+        #form-create-event {
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+        
+        #anzeige {
+            margin: -1.25em 0 0 -1.25em;
+        }
+        
+        #filter {
+            margin: -1.25em 0 0 -1.25em;
+        }
+        
+        #filterForm .form-inline {
+            width: calc(100% - 1.25em);
+            margin: 1.25em 2em 0 1.25em;
+        }
+
+        #formLogin {
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+        
+        #form-veranstalter {
+            margin-left: 8.5em;
+        } 
+        
+        #form-benutzer {
+            margin-left: 8.5em;
+        } 
+        
+        .tiles {
+            margin: -1.25em 0 0 -1.25em;
+        }
+
+            .tiles article {
+                width: calc(33.33333% - 1.25em);
+                margin: 1.25em 0 0 1.25em;
+            }
+    }
+
+
+
+    @media screen and (max-width: 980px) {
+
+        #form-create-event {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        
+        #filter {
+            margin: -2.5em 0 0 -2.5em;
+        }
+        
+        #anzeige {
+            margin: -2.5em 0 0 -2.5em;
+        }
+        
+        #form-veranstalter {
+            margin-left: 4em;
+        } 
+        
+        #form-benutzer {
+            margin-left: 4em;
+        } 
+        
+        #filterForm .form-inline {
+            width: calc(100% - 2.5em);
+            margin: 2.5em 0 0 2.5em;
+        }
+
+        #formLogin {
+            margin-right: 150px;
+            margin-left: 150px;
+        }
+
+        .tiles {
+            margin: -2.5em 0 0 -2.5em;
+        }
+
+            .tiles article {
+                width: calc(50% - 2.5em);
+                margin: 2.5em 0 0 2.5em;
+            }
+
+    }
+
+    @media screen and (max-width: 855px) {
+        #formLogin {
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+
+        #form-create-event {
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 823px) {
+        #footer{
+            position: fixed;
+        }
+    }
+    @media screen and (max-width: 736px) {
+
+        #form-create-event {
+            width: 100%;
+            margin: 1em 0 1em 0;
+            padding-right: 2em;
+            padding-left: 2em;
+        }
+
+        #filter {
+            margin: -1.25em 0 0 -1.25em;
+        }
+        
+        #anzeige {
+            margin: -1.25em 0 0 -1.25em;
+        }
+        
+        #filterForm .form-inline {
+            width: calc(100% - 1.25em);
+            margin: 1.25em 0 0 1.25em;
+        }
+
+        #formLogin  {
+            width: 100%;
+            margin: 1em 0 1em 0;
+            padding-right: 2em;
+            padding-left: 2em;
+        }
+
+        .formLoginClass  {
+            width: 100%;
+            margin: 1em 0 0 0;
+        }
+
+        .formCreateClass {
+            width: 100%;
+            margin: 1em 0 0  0;
+        }
+        
+        #form-veranstalter {
+            margin-left: 2em;
+        } 
+        
+        #form-benutzer {
+            margin-left: 2em;
+        } 
+        
+        .tiles {
+            margin: -1.25em 0 0 -1.25em;
+        }
+
+            .tiles article {
+                width: calc(50% - 1.25em);
+                margin: 1.25em 0 0 1.25em;
+            }
+
+                .tiles article:hover > .image {
+                    -moz-transform: scale(1.0);
+                    -webkit-transform: scale(1.0);
+                    -ms-transform: scale(1.0);
+                    transform: scale(1.0);
+                }
+
+        .description {
+            margin: 0 0 2em 0;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        #filter {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 35px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #filter {
+            visibility: hidden;
+        }
+
+        #responsiveFilter {
+            visibility: visible;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        #form-create-event {
+            width: 100%;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        #filter {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 45px;
+        }
+        
+        #anzeige {
+            margin: -0.25em 0 0 -0.25em;
+        }
+        
+        #form-group-without-left {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+        
+        #filterForm .form-inline {
+            width: 100%;
+            margin: 1em 0 0 0;
+        }
+        
+        #formLogin  {
+            width: 100%;
+            margin: 1em 0 1em 0;
+            padding-right: 2em;
+            padding-left: 2em;
+        }
+        
+        .formLoginClass  {
+            width: 100%;
+            margin: 1em 0 0 0;
+        }
+
+        .formCreateClass {
+            width: 100%;
+            margin: 1em 0 0  0;
+        }
+        
+        #form-veranstalter {
+            margin-left: 1em;
+        }        
+        
+        #form-benutzer {
+            margin-left: 1em;
+        }
+
+        #form-new-event {
+            margin-left: 1em;
+        }
+        
+        .tiles {
+            margin: 0;
+        }
+
+        .tiles article {
+            width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        .infos {
+            margin-right: 20px;
+        }
+    }
+    @media screen and (max-width: 260px) {
+        #footer {
+            position: fixed;
+        }
+    }
+
+    @media screen and (max-width: 990px) {
+        #form-group-without-left {
+            margin-left: 1em;
+        }
+
+        #form-veranstalter{
+            margin-left: 1em;
+        }
+    }
+
+    .textoverflow{
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+
+    @media (width: 640px) and (height: 360px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media (width: 736px) and (height: 414px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media (width: 731px) and (height: 411px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media (width: 823px) and (height: 411px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media (width: 568px) and (height: 320px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media (width: 667px) and (height: 375px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    @media (width: 812px) and (height: 375px) {
+        #footer {
+            position: relative;
+        }
+    }
+
+    .image-main{
+        display: grid;
+        height: 100%;
+    }
+
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
