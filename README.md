@@ -13,6 +13,8 @@ Git Project for a School Module
 
 - [ ] Editing Event via URL should be prevented via Access Sheme
 
+- [ ] Ajax calls should be encapsulated in a private JS modul
+
 # Optional Todo's
 
 - [ ] Change ID logic so that it's not incremental (Hash or UUID)
