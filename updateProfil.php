@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'authenticate.php';
 $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
 
 $vorname = $_POST["vorname"];

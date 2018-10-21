@@ -1,6 +1,8 @@
 <?php 
     include 'include/head.php';
-?>         
+    include 'authenticate.php';
+?>
+
 <!-- Main -->
 <div id="form-create-event">
     <h2>Neuen Event</h2>

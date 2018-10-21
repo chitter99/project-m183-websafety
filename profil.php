@@ -1,5 +1,6 @@
 <?php 
     include 'include/head.php';
+    include 'authenticate.php';
 
     if(isset($_SESSION['vorname']) && isset($_SESSION['nachname'])){
         $vorname = $_SESSION['vorname'];

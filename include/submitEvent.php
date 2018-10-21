@@ -1,4 +1,5 @@
 <?php
+include '../authenticate.php';
 session_start();
     $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
 

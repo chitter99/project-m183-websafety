@@ -1,5 +1,6 @@
 <?php
 include 'include/head.php';
+include 'authenticate.php';
     $id = $_GET['id'];
 
     $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');

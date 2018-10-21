@@ -1,4 +1,7 @@
 <?php
+
+    include 'authenticate.php';
+
     $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
     
     $titel = $_POST["titel"];

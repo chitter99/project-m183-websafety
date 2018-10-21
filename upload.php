@@ -12,6 +12,7 @@
 </body>
 </html>
 <?php
+   include 'authenticate.php';
   if(!empty($_FILES['uploaded_file']))
   {
     $temp = explode(".", $_FILES['uploaded_file']['name']);
