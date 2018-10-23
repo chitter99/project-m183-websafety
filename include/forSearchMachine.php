@@ -62,9 +62,11 @@
         $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $sql = "SELECT id, vorname, nachname FROM user WHERE vorname LIKE '".$firstname."' AND nachname LIKE '".$lastname."';";
+        $sql = "SELECT id, vorname, nachname FROM user WHERE vorname LIKE '?' AND nachname LIKE '?';";
 
         $stmt = $pdo->prepare($sql);
+        $stmt->bindParam('s', $firstname);
+        $stmt->bindParam('s', $lastname);
         $stmt->execute();
 
         $userId = $stmt->fetchColumn();

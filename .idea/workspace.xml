@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f9f062-ae63-4b86-bd4a-0c8c282a17b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/editEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/editProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/forSearchMachine.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/forSearchMachine.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,42 +23,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="6" />
+          <entry key="js" value="1" />
+          <entry key="php" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="6" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="177" />
+          <entry key="php" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="177" />
+          <entry key="PHP" value="202" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editEvent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/authenticate.php">
+        <entry file="file://$PROJECT_DIR$/include/forSearchMachine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -76,6 +68,8 @@
         <option value="$PROJECT_DIR$/notyourevent.php" />
         <option value="$PROJECT_DIR$/editEvent.php" />
         <option value="$PROJECT_DIR$/authenticate.php" />
+        <option value="$PROJECT_DIR$/js/searchEngine.js" />
+        <option value="$PROJECT_DIR$/include/forSearchMachine.php" />
       </list>
     </option>
   </component>
@@ -106,7 +100,7 @@
             <path>
               <item name="project-m183-websafety" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-m183-websafety" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,12 +135,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540192568256</updated>
       <workItem from="1540192569584" duration="829000" />
-      <workItem from="1540292466443" duration="1436000" />
+      <workItem from="1540292466443" duration="4462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2265000" />
+    <option name="totallyTimeSpent" value="5291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -165,7 +159,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -194,17 +188,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/searchEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/forSearchMachine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
         </state>
       </provider>
     </entry>
