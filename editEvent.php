@@ -1,15 +1,22 @@
 <?php
-include 'include/head.php';
 include 'authenticate.php';
-    $id = $_GET['id'];
+include 'include/head.php';
 
-    $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$id = $_GET['id'];
+$userId = $_SESSION['id'];
 
-    $stmt = $pdo->prepare("SELECT * FROM event WHERE id =". $id); 
-    $stmt->execute();
+$pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    foreach(($stmt->fetchAll()) as $e=>$eventDetails) { 
+$stmt = $pdo->prepare("SELECT * FROM event WHERE id =". $id);
+$stmt->execute();
+
+foreach(($stmt->fetchAll()) as $e=>$eventDetails) {
+
+    if($userId != $eventDetails['userId']) {
+        echo "<script>window.location.href = \"index.php\";</script>";
+        exit;
+    }
 ?>
 <!-- Main -->
 <div id="form-create-event">

@@ -1,10 +1,9 @@
 <?php
 include 'include/head.php';
+include 'authenticate.php';
+
 $id = $_SESSION['id'];
 
-if($id){
-
-}
 $pdo = new PDO('mysql:host=localhost;dbname=wissensdatenbank', 'root', '');
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
